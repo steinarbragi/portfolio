@@ -50,7 +50,7 @@ class LandingPage extends React.Component {
               <GridItem xs={12} sm={12} md={6}>
                 <h1 className={classes.title}>Hi, I'm Steinar</h1>
                 <h4>
-                I create web and mobile experiences for the next generation of consumer-facing companies. I love to play with bleeding edge web technologies and I live to tinker and learn. My stack these days includes React, Flutter, Node.js, MongoDB and Serverless.
+                I create web and mobile experiences for the next generation of consumer-facing companies. I love to play with bleeding edge technology and I live to tinker and learn. My stack these days includes React, Flutter, Node.js, MongoDB and Serverless.
                 </h4>
                 <br />
                 {/*<Button
