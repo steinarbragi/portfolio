@@ -7,3 +7,7 @@ Gatsby Material Kit React Starter is the adaptation of [Material Kit React](http
 
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FWebCu%2Fgatsby-material-kit-react.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FWebCu%2Fgatsby-material-kit-react?ref=badge_large)
+
+
+## Site Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/12d7e223-4920-4551-96b6-367802c9ebcd/deploy-status)](https://app.netlify.com/sites/optimistic-morse-265351/deploys)
