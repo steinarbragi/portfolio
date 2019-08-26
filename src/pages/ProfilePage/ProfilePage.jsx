@@ -4,11 +4,11 @@ import classNames from "classnames";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
-import Camera from "@material-ui/icons/Camera";
-import Palette from "@material-ui/icons/Palette";
-import Favorite from "@material-ui/icons/Favorite";
+import Work from "@material-ui/icons/Work";
+import School from "@material-ui/icons/School";
+import Home from "@material-ui/icons/Home";
 // React icons
-import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaTwitter, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 // core components
 import Header from "components/Header/Header.jsx";
@@ -20,7 +20,7 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
-import profile from "assets/img/faces/christian.jpg";
+import profile from "assets/img/faces/steinar.jpg";
 
 import studio1 from "assets/img/examples/studio-1.jpg";
 import studio2 from "assets/img/examples/studio-2.jpg";
@@ -48,7 +48,7 @@ class ProfilePage extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="Material Kit React"
+          brand="steinar.io"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -57,7 +57,7 @@ class ProfilePage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax small filter image={require("assets/img/profile-bg.jpg")} />
+        <Parallax small filter image={require("assets/img/doom.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div>
             <div className={classes.container}>
@@ -68,16 +68,40 @@ class ProfilePage extends React.Component {
                       <img src={profile} alt="..." className={imageClasses} />
                     </div>
                     <div className={classes.name}>
-                      <h3 className={classes.title}>Christian Louboutin</h3>
-                      <h6>DESIGNER</h6>
-                      <Button justIcon link className={classes.margin5}>
+                      <h3 className={classes.title}>Steinar Bragi Sigurðarson</h3>
+                      <h6>Computer Scientist</h6>
+                      <Button
+                        href="https://linkedin.com/in/steinarbragi"
+                        justIcon
+                        color="transparent"
+                        className={classes.margin5}
+                      >
+                        <FaLinkedin/>
+                      </Button>
+
+                      <Button
+                        href="https://github.com/steinarbragi"
+                        justIcon
+                        color="transparent"
+                        className={classes.margin5}
+                      >
+                        <FaGithub/>
+                      </Button>
+                      <Button
+                        href="https://twitter.com/steinarbragi"
+                        justIcon
+                        color="transparent"
+                        className={classes.margin5}
+                      >
                         <FaTwitter/>
                       </Button>
-                      <Button justIcon link className={classes.margin5}>
+                      <Button
+                        href="https://instagram.com/steinarbragi"
+                        justIcon
+                        color="transparent"
+                        className={classes.margin5}
+                      >
                         <FaInstagram/>
-                      </Button>
-                      <Button justIcon link className={classes.margin5}>
-                        <FaFacebook/>
                       </Button>
                     </div>
                   </div>
@@ -85,10 +109,7 @@ class ProfilePage extends React.Component {
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  An artist of considerable range, Chet Faker — the name taken
-                  by Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                  performs and records all of his own music, giving it a warm,
-                  intimate feel with a solid groove structure.{" "}
+                I've always been fascinated by computers and technology. I remember playing with DOS at the age of 4 and tearing computers and electronics apart a few years later. I just had to understand how things function behind the scenes. I am driven by curiosity and a a need to solve difficult problems. I got my BSc in CS from Reykjavík University in 2014 where I dipped my toes into various fields within computer science with a focus on web development and software engineering. Since then I've worked on a wide variety of projects. For the past couple of years I've been researching Machine Learning in the Netherlands.{" "}
                 </p>
               </div>
               <GridContainer justify="center">
@@ -98,8 +119,8 @@ class ProfilePage extends React.Component {
                     color="primary"
                     tabs={[
                       {
-                        tabButton: "Studio",
-                        tabIcon: Camera,
+                        tabButton: "Work",
+                        tabIcon: Work,
                         tabContent: (
                           <GridContainer justify="center">
                             <GridItem xs={12} sm={12} md={4}>
@@ -130,8 +151,8 @@ class ProfilePage extends React.Component {
                         )
                       },
                       {
-                        tabButton: "Work",
-                        tabIcon: Palette,
+                        tabButton: "Education",
+                        tabIcon: School,
                         tabContent: (
                           <GridContainer justify="center">
                             <GridItem xs={12} sm={12} md={4}>
@@ -167,8 +188,8 @@ class ProfilePage extends React.Component {
                         )
                       },
                       {
-                        tabButton: "Favorite",
-                        tabIcon: Favorite,
+                        tabButton: "Personal",
+                        tabIcon: Home,
                         tabContent: (
                           <GridContainer justify="center">
                             <GridItem xs={12} sm={12} md={4}>
