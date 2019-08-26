@@ -49,7 +49,7 @@ class ProductSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
                 title="Cloud"
-                description="In 2010 I managed cPanel hosting for a small internet company. Since then I've used everything from Heroku, AWS, Serverless, MongoDB Atlas, etc. I know how to set up and maintain CI/CD and databases."
+                description="In 2010 I managed cPanel hosting for a small internet company. Since then I've used everything from Heroku, AWS, Serverless, MongoDB Atlas, etc. I know how to maintain CI/CD pipelines and build APIs."
                 icon={Cloud}
                 iconColor="danger"
                 vertical
