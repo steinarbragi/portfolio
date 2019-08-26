@@ -20,13 +20,9 @@ class ProductSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>Let's talk product</h2>
+            <h2 className={classes.title}>What I do</h2>
             <h5 className={classes.description}>
-              This is the paragraph where you can write more details about your
-              product. Keep you user engaged by providing meaningful
-              information. Remember that by this time, the user is curious,
-              otherwise he wouldn't scroll to get here. Add a button if you want
-              the user to see more.
+              I've gathered a broad set of skills during a decade of software development with a diverse collection of companies. Each company had different values and approaches and I've learned to adapt and learn new skills to fit each environment. On the side, I kept a collection of my favorite tools and workflows which I used as my own personal stack for freelance and hobby projects.
             </h5>
           </GridItem>
         </GridContainer>
