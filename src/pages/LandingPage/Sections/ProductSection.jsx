@@ -42,7 +42,7 @@ class ProductSection extends React.Component {
                 title="Mobile"
                 description="I've used React Native while building an MVP for a startup. I've recently started developing with Flutter and I love the speed and quality of the developer experience."
                 icon={Mobile}
-                iconColor="success"
+                iconColor="primary"
                 vertical
               />
             </GridItem>
