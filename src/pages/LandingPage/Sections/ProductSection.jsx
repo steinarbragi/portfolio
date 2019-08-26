@@ -22,7 +22,7 @@ class ProductSection extends React.Component {
           <GridItem xs={12} sm={12} md={8}>
             <h2 className={classes.title}>What I do</h2>
             <h5 className={classes.description}>
-              I've gathered a broad set of skills during a decade of software development with a diverse group of companies. Each company had different values and approaches and I've learned to adapt and learn new skills to fit each environment. On the side, I kept a collection of my favorite tools and workflows which I used as my own personal stack for freelance and hobby projects. My stack of choice is still evolving.
+              I've gathered a broad set of skills during a decade of software development with a diverse group of companies. Each company had different values and approaches and I've learned to adapt and learn new skills to fit each environment. On the side, I kept a collection of my favorite tools and workflows which I used as my own personal stack for freelance and hobby projects. My stack of choice is always evolving.
             </h5>
           </GridItem>
         </GridContainer>
