@@ -23,12 +23,13 @@ class WorkSection extends React.Component {
             <h4 className={classes.description}>
               Would you like to collaborate with me? Drop me a line with a summary of your project, product or agency. I'll respond asap and we can arrange a meeting!
             </h4>
-            <form>
+            <form name="contact" method="POST" data-netlify="true">
               <GridContainer>
                 <GridItem xs={12} sm={12} md={6}>
                   <CustomInput
                     labelText="Your Name"
                     id="name"
+                    name="name"
                     formControlProps={{
                       fullWidth: true
                     }}
@@ -38,6 +39,7 @@ class WorkSection extends React.Component {
                   <CustomInput
                     labelText="Your Email"
                     id="email"
+                    name="email"
                     formControlProps={{
                       fullWidth: true
                     }}
@@ -46,6 +48,7 @@ class WorkSection extends React.Component {
                 <CustomInput
                   labelText="Your Message"
                   id="message"
+                  name="message"
                   formControlProps={{
                     fullWidth: true,
                     className: classes.textArea
@@ -62,7 +65,7 @@ class WorkSection extends React.Component {
                     md={4}
                     className={classes.textCenter}
                   >
-                    <Button color="primary">Send Message</Button>
+                    <Button type="submit" color="primary">Send Message</Button>
                   </GridItem>
                 </GridContainer>
               </GridContainer>
