@@ -33,6 +33,26 @@ import work3 from "assets/img/examples/cynthia-del-rio.jpg";
 import work4 from "assets/img/examples/mariya-georgieva.jpg";
 import work5 from "assets/img/examples/clem-onojegaw.jpg";
 
+/*
+import viv from 'assets/img/portfolio/logo/viv.png';
+import vet from 'assets/img/portfolio/logo/vet.png';
+import no from 'assets/img/portfolio/logo/no.png';
+
+import aflatorg from 'assets/img/portfolio/aflatorg.png';
+import eimskipcom from 'assets/img/portfolio/eimskipcom.png';
+import eimskipmap from 'assets/img/portfolio/eimskipmap.png';
+import forumvivaldi from 'assets/img/portfolio/forumvivaldi.png';
+import nochat from 'assets/img/portfolio/no-chat.png';
+import nomap from 'assets/img/portfolio/no-map.png';
+import notask from 'assets/img/portfolio/no-task.png';
+import saeferdir from 'assets/img/portfolio/saeferdir.png';
+import vivaldiauth from 'assets/img/portfolio/vivaldiauth.png';
+import vivaldicom from 'assets/img/portfolio/vivaldicom.png';
+import vivaldiprofile from 'assets/img/portfolio/vivaldiprofile.png';
+import wurthleit from 'assets/img/portfolio/wurthleit.png';
+import wurthverslun from 'assets/img/portfolio/wurthverslun.png'; 
+*/
+
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
 
 class ProfilePage extends React.Component {

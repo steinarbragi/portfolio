@@ -16,7 +16,7 @@ let hist = createMemoryHistory();
 export default () => (
   <Router history={hist}>
     <Switch>
-      <Route path="/profile" component={ProfilePage} />
+      <Route path="/portfolio" component={ProfilePage} />
       {/*<Route path="/login-page" component={LoginPage} /> */}
       <Route path="/" component={LandingPage} />
       <Route path="/success" component={Success} />
