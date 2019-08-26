@@ -13,7 +13,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 import { Apps, CloudDownload } from "@material-ui/icons";
 
 // React icons
-import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaTwitter, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
@@ -47,7 +47,7 @@ function HeaderLinks({ ...props }) {
             </a>
           ]}
         />
-      </ListItem> */}
+      </ListItem> 
       <ListItem className={classes.listItem}>
         <Button
           href="https://html5zombo.com/"
@@ -57,10 +57,47 @@ function HeaderLinks({ ...props }) {
         >
           <CloudDownload className={classes.icons} /> Download CV
         </Button>
+      </ListItem> */}
+            
+            <ListItem className={classes.listItem}>
+        <Tooltip
+          id="github-tooltip"
+          title="Check out my projects!"
+          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            href="https://github.com/steinarbragi"
+            target="_blank"
+            color="transparent"
+            className={classes.navLink}
+          >
+            <FaGithub/>
+            Github
+          </Button>
+        </Tooltip>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
-          id="instagram-twitter"
+          id="linkedin-tooltip"
+          title="Let's link up!"
+          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href="https://www.linkedin.com/in/steinarbragi/"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <FaLinkedin/>
+            LinkedIn
+          </Button>
+        </Tooltip>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="twitter-tooltip"
           title="Follow me on Twitter!"
           placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
@@ -72,6 +109,7 @@ function HeaderLinks({ ...props }) {
             className={classes.navLink}
           >
             <FaTwitter/>
+            Twitter
           </Button>
         </Tooltip>
       </ListItem>
@@ -89,25 +127,7 @@ function HeaderLinks({ ...props }) {
             className={classes.navLink}
           >
             <FaInstagram/>
-            
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Let's link up!"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.linkedin.com/in/steinarbragi/"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <FaLinkedin/>
-            
+            Instagram
           </Button>
         </Tooltip>
       </ListItem>

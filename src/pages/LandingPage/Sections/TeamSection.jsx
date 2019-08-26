@@ -19,10 +19,6 @@ import CardFooter from "components/Card/CardFooter.jsx";
 
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
-import team1 from "assets/img/faces/avatar.jpg";
-import team2 from "assets/img/faces/christian.jpg";
-import team3 from "assets/img/faces/kendall.jpg";
-
 import steinar from "assets/img/faces/steinar.jpg";
 
 class TeamSection extends React.Component {
@@ -50,7 +46,7 @@ class TeamSection extends React.Component {
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                  I've gathered a broad set of skills during a decade of software development with a diverse set of companies. Each company had different values and approaches and I've learned to adapt and learn new skills to fit each environment. On the side, I kept a collection of my favorite tools and workflows which I've used as my own personal stack for freelance and hobby projects. My stack of choice is still evolving.
+                  I've always been fascinated by computers and technology. I remember playing with DOS at the age of 4 and tearing computers and electronics apart a few years later. I just had to understand how things function behind the scenes. I am driven by curiosity and a a need to solve difficult problems. I got my BSc in CS from Reykjavík University in 2014 where I dipped my toes into various fields within computer science with a focus on web development and software engineering. Since then I've worked with on a wide variety of projects. For the past couple of years I've been researching Machine Learning in the Netherlands. 
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
