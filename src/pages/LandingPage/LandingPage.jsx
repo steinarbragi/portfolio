@@ -73,7 +73,7 @@ class LandingPage extends React.Component {
                 I create web and mobile experiences for the next generation of consumer-facing companies. I love to play with bleeding edge web technologies and I live to tinker and learn. To me, every successful day involves learning something new. My stack these days includes React, Flutter, Node.js, MongoDB and Serverless. I've also studied machine learning and advanced data analytics.
                 </h4>
                 <br />
-                <Button
+                {/*<Button
                   color="danger"
                   size="lg"
                   href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -82,7 +82,7 @@ class LandingPage extends React.Component {
                 >
                   <FaPlay/>
                   Watch video
-                </Button>
+                </Button>*/}
               </GridItem>
             </GridContainer>
           </div>
