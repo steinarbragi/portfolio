@@ -31,7 +31,7 @@ class ProductSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
                 title="Web"
-                description="I starting playing with web technologies a decade ago. I have experience with PHP, .NET, React, NodeJS, TypeScript to name a few tools."
+                description="I started playing with web technologies a decade ago. I have experience with PHP, .NET, React, NodeJS, TypeScript to name a few tools."
                 icon={Web}
                 iconColor="info"
                 vertical
@@ -49,7 +49,7 @@ class ProductSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
                 title="Cloud"
-                description="In 2010 I managed cPanel hosting for a small internet company. Since then I've used everything from Heroku, AWS, Serverless, MongoDB Atlas, etc. I know how to set up and maintain a CI/CD pipeline."
+                description="In 2010 I managed cPanel hosting for a small internet company. Since then I've used everything from Heroku, AWS, Serverless, MongoDB Atlas, etc. I know how to set up and maintain CI/CD and databases."
                 icon={Cloud}
                 iconColor="danger"
                 vertical
