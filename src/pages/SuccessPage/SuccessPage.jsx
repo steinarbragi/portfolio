@@ -7,7 +7,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 
 // React icons
-import { FaPlay } from 'react-icons/fa';
+import { FaHome } from 'react-icons/fa';
 
 // core components
 import Header from "components/Header/Header.jsx";
@@ -50,14 +50,14 @@ class SuccessPage extends React.Component {
                 </h4>
                 <br />
                 <Button
-                  color="danger"
+                  color="primary"
                   size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  href="/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaPlay/>
-                  Watch video
+                  <FaHome/>
+                  Back to home
                 </Button>
               </GridItem>
             </GridContainer>

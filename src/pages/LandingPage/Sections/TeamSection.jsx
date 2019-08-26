@@ -7,7 +7,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 
 // React icons
-import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaTwitter, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
@@ -36,7 +36,7 @@ class TeamSection extends React.Component {
           <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={8}>
               <Card plain>
-                <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <GridItem xs={10} sm={8} md={6} className={classes.itemGrid}>
                   <img src={steinar} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
@@ -51,25 +51,37 @@ class TeamSection extends React.Component {
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
                   <Button
+                    href="https://linkedin.com/in/steinarbragi"
                     justIcon
                     color="transparent"
                     className={classes.margin5}
                   >
                     <FaLinkedin/>
                   </Button>
+
                   <Button
+                    href="https://github.com/steinarbragi"
                     justIcon
                     color="transparent"
                     className={classes.margin5}
                   >
-                    <FaInstagram/>
+                    <FaGithub/>
                   </Button>
                   <Button
+                    href="https://twitter.com/steinarbragi"
                     justIcon
                     color="transparent"
                     className={classes.margin5}
                   >
                     <FaTwitter/>
+                  </Button>
+                  <Button
+                    href="https://instagram.com/steinarbragi"
+                    justIcon
+                    color="transparent"
+                    className={classes.margin5}
+                  >
+                    <FaInstagram/>
                   </Button>
                 </CardFooter>
               </Card>
