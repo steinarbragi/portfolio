@@ -21,6 +21,7 @@ function CustomInput({ ...props }) {
     inputProps,
     error,
     white,
+    name,
     inputRootCustomClasses,
     success
   } = props;
@@ -70,6 +71,7 @@ function CustomInput({ ...props }) {
           underline: underlineClasses
         }}
         id={id}
+        name={name}
         {...inputProps}
       />
     </FormControl>
