@@ -23,7 +23,7 @@ class WorkSection extends React.Component {
             <h4 className={classes.description}>
               Would you like to collaborate with me? Drop me a line with a summary of your project, product or agency. I'll respond asap and we can arrange a meeting!
             </h4>
-            <form netlify name="contact" method="POST" data-netlify="true" action="/success" data-netlify-honeypot="bot-field">
+            <form name="contact" method="POST" data-netlify="true" action="/success" data-netlify-honeypot="bot-field">
               <input type="hidden" name="form-name" value="contact"/>
               <input type="hidden" name="bot-field" />
               <GridContainer>
