@@ -22,7 +22,7 @@ class ProductSection extends React.Component {
           <GridItem xs={12} sm={12} md={8}>
             <h2 className={classes.title}>What I do</h2>
             <h5 className={classes.description}>
-              I've gathered a broad set of skills during a decade of software development with a diverse group of companies. Each company had different values and approaches and I've learned to adapt and learn new skills to fit each environment. On the side, I kept a collection of my favorite tools and workflows which I used as my own personal stack for freelance and hobby projects. My stack of choice is always evolving.
+              I've gathered a broad set of skills during a decade of software development with a diverse group of companies. Each company had different values and approaches and I've learned to adapt and learn new skills to fit each environment. I can build reliable, scalable and maintainable software quickly.
             </h5>
           </GridItem>
         </GridContainer>
@@ -49,7 +49,7 @@ class ProductSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
                 title="Cloud"
-                description="In 2010 I managed cPanel hosting for a small internet company. Since then I've used everything from Heroku, AWS, Serverless, MongoDB Atlas, etc. I know how to maintain CI/CD pipelines and build scalable APIs."
+                description="In 2010 I managed cPanel hosting for a small internet company. Since then I've used everything from Heroku, AWS, Serverless, GitLab and Azure. I know how to maintain CI/CD pipelines and build scalable APIs."
                 icon={Cloud}
                 iconColor="danger"
                 vertical
