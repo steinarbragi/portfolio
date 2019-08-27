@@ -64,7 +64,7 @@ class WorkSection extends React.Component {
                   <GridItem
                     xs={12}
                     sm={12}
-                    md={4}
+                    md={12}
                     className={classes.textCenter}
                   >
                     <Button type="submit" color="primary">Send Message</Button>
