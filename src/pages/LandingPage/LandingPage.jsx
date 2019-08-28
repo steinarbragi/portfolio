@@ -14,8 +14,10 @@ import GridItem from "components/Grid/GridItem.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 import MetaHead from "components/Header/MetaHead.jsx";
-
+import { CloudDownload } from "@material-ui/icons";
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
+import Button from "components/CustomButtons/Button.jsx";
+import Icon from "@material-ui/core/Icon";
 
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.jsx";
@@ -53,16 +55,17 @@ class LandingPage extends React.Component {
                 I create highly scalable and modern web and mobile experiences for the next generation of consumer-facing companies. I love to play with bleeding edge technology and I live to tinker and learn. My tech stack is always evolving.
                 </h4>
                 <br />
-                {/*<Button
-                  color="danger"
+                <Button
+                  color="primary"
                   size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  href="/cv.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className={classes.cloud}
                 >
-                  <FaPlay/>
-                  Watch video
-                </Button>*/}
+                  <CloudDownload className={classes.icons} />
+                  Download CV
+                </Button>
               </GridItem>
             </GridContainer>
           </div>
