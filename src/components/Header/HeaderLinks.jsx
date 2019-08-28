@@ -10,10 +10,10 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons";
+import { Apps, CloudDownload, Share } from "@material-ui/icons";
 
 // React icons
-import { FaTwitter, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaTwitter, FaInstagram, FaLinkedin, FaGithub, FaFacebook } from 'react-icons/fa';
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
@@ -25,39 +25,16 @@ function HeaderLinks({ ...props }) {
   const { classes } = props;
   return (
     <List className={classes.list}>
-      { /*<ListItem className={classes.listItem}>
-        <CustomDropdown
-          noLiPadding
-          buttonText="Components"
-          buttonProps={{
-            className: classes.navLink,
-            color: "transparent"
-          }}
-          buttonIcon={Apps}
-          dropdownList={[
-            <Link to="/components" className={classes.dropdownLink}>
-              All components
-            </Link>,
-            <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>
-          ]}
-        />
-      </ListItem> 
       <ListItem className={classes.listItem}>
         <Button
-          href="https://html5zombo.com/"
+          href="/cv.pdf"
           color="transparent"
           target="_blank"
           className={classes.navLink}
         >
           <CloudDownload className={classes.icons} /> Download CV
         </Button>
-      </ListItem> */}
+      </ListItem> 
             
             <ListItem className={classes.listItem}>
         <Tooltip
@@ -95,7 +72,71 @@ function HeaderLinks({ ...props }) {
           </Button>
         </Tooltip>
       </ListItem>
+      { /*<ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          buttonText="Components"
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent"
+          }}
+          buttonIcon={Apps}
+          dropdownList={[
+            <Link to="/components" className={classes.dropdownLink}>
+              All components
+            </Link>,
+            <a
+              href="https://creativetimofficial.github.io/material-kit-react/#/documentation"
+              target="_blank"
+              className={classes.dropdownLink}
+            >
+              Documentation
+            </a>
+          ]}
+        />
+      </ListItem> */}
       <ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          buttonText="Social"
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent"
+          }}
+          buttonIcon={Share}
+          dropdownList={[
+            <Button
+            href="https://twitter.com/steinarbragi"
+            target="_blank"
+            color="transparent"
+            className={classes.navLink}
+          >
+            <FaTwitter/>
+            Twitter
+          </Button>,
+            <Button
+            color="transparent"
+            href="https://www.instagram.com/steinarbragi/"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <FaInstagram/>
+            Instagram
+          </Button>,
+          <Button
+          color="transparent"
+          href="https://facebook.com/steinarbragi/"
+          target="_blank"
+          className={classes.navLink}
+        >
+          <FaFacebook/>
+          Facebook
+        </Button> 
+          
+          ]}
+        />
+      </ListItem>
+      {/*<ListItem className={classes.listItem}>
         <Tooltip
           id="twitter-tooltip"
           title="Follow me on Twitter!"
@@ -128,9 +169,9 @@ function HeaderLinks({ ...props }) {
           >
             <FaInstagram/>
             Instagram
-          </Button>
+          </Button> 
         </Tooltip>
-      </ListItem>
+      </ListItem>*/}
     </List>
   );
 }
