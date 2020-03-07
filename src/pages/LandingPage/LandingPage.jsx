@@ -58,7 +58,7 @@ class LandingPage extends React.Component {
                 <Button
                   color="primary"
                   size="lg"
-                  href="/cv.pdf"
+                  href="/cv-070320.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={classes.cloud}
